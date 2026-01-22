@@ -51,14 +51,14 @@ export default function Home() {
             Alexander Aronowitz
           </Link>
 
-          <div className="flex items-center">
+          <Link href="/about" className="flex items-center group cursor-pointer">
             <svg
               width="140"
               height="24"
               viewBox="0 0 120 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-24 md:w-32 lg:w-40"
+              className="w-24 md:w-32 lg:w-40 transition-transform group-hover:translate-x-2"
             >
               <path
                 d="M0 12H118M118 12L108 2M118 12L108 22"
@@ -68,7 +68,7 @@ export default function Home() {
                 strokeLinejoin="round"
               />
             </svg>
-          </div>
+          </Link>
         </footer>
       </div>
     </div>

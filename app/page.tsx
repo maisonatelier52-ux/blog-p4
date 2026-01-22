@@ -33,9 +33,9 @@ export default function Home() {
 
           {/* Right Side: Image with specific sizing to fit */}
           <div className="w-full lg:w-2/5 flex justify-center lg:justify-end items-center max-h-[50vh] lg:max-h-full">
-            <div className="relative w-full aspect-[4/3] overflow-hidden grayscale-[0.2] brightness-90">
+            <div className="relative w-full aspect-[4/3.5] overflow-hidden grayscale-[0.2] brightness-90">
               <Image
-                src="/images/Julio Herrera Velutini233.png"
+                src="/images/Julio Herrera Velutini23-6.png"
                 alt="Julio Herrera Velutini"
                 fill
                 className="object-cover"

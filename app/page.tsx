@@ -1,65 +1,76 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="h-screen bg-black text-white flex flex-col font-sans selection:bg-white selection:text-black overflow-hidden">
+      {/* Container for main presentation area */}
+      <div className="flex-grow flex flex-col py-8 md:py-10 lg:py-12 pl-6 md:pl-12 lg:pl-20">
+        {/* Top Header */}
+        <nav className="flex justify-between items-center mb-6 lg:mb-10 pr-6 md:pr-12 lg:pr-20">
+          <Link href="#" className="border border-white/50 rounded-full px-6 py-2.5 text-[11px] md:text-[13px] font-medium uppercase tracking-[0.15em] hover:underline transition-all underline-offset-4">
+            Creative Presentation
+          </Link>
+          <Link href="#" className="border border-white/50 rounded-full px-6 py-2.5 text-[11px] md:text-[13px] font-medium tracking-wider text-white/90 hover:underline transition-all underline-offset-4">
+            reallygreatsite.com
+          </Link>
+        </nav>
+
+        {/* Main Content Area */}
+        <main className="flex-grow flex flex-col lg:flex-row items-center justify-between gap-8 py-4">
+          {/* Left Side: Text content */}
+          <div className="w-full lg:w-3/5 flex flex-col justify-center">
+            <h1 className="text-[12vw] lg:text-[9rem] font-bold leading-[0.85] tracking-[-0.05em] mb-6 lg:mb-8">
+              Introduction
+            </h1>
+            <p className="text-white/70 text-sm md:text-lg leading-[1.6] max-w-xl font-normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </p>
+          </div>
+
+          {/* Right Side: Image with specific sizing to fit */}
+          <div className="w-full lg:w-2/5 flex justify-center lg:justify-end items-center max-h-[50vh] lg:max-h-full">
+            <div className="relative w-full aspect-[4/3] overflow-hidden grayscale-[0.2] brightness-90">
+              <Image
+                src="/images/Julio Herrera Velutini233.png"
+                alt="Julio Herrera Velutini"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+        </main>
+
+        {/* Bottom Navigation Row */}
+        <footer className="flex justify-between items-center mt-auto pt-6 pr-6 md:pr-12 lg:pr-20">
+          <Link href="#" className="border border-white/50 rounded-full px-8 py-3 text-[11px] md:text-[13px] font-medium tracking-widest uppercase hover:underline transition-all underline-offset-4">
+            Alexander Aronowitz
+          </Link>
+
+          <div className="flex items-center">
+            <svg
+              width="140"
+              height="24"
+              viewBox="0 0 120 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-24 md:w-32 lg:w-40"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+              <path
+                d="M0 12H118M118 12L108 2M118 12L108 22"
+                stroke="white"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }

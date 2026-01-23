@@ -64,6 +64,26 @@ export default function Services() {
                         className="object-cover grayscale"
                         priority
                     />
+
+                    {/* Next Page Arrow inside Image */}
+                    <Link href="/contact" className="absolute bottom-6 md:bottom-15 right-6 md:right-20 z-10 flex items-center group cursor-pointer">
+                        <svg
+                            width="80"
+                            height="20"
+                            viewBox="0 0 120 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="w-16 md:w-32 lg:w-40 transition-transform group-hover:translate-x-2"
+                        >
+                            <path
+                                d="M0 12H118M118 12L108 2M118 12L108 22"
+                                stroke="white"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            />
+                        </svg>
+                    </Link>
                 </div>
             </main>
 

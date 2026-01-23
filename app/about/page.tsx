@@ -21,7 +21,7 @@ export default function About() {
                     {/* Left Side: Text content */}
                     <div className="w-full lg:w-3/5 flex flex-col justify-center z-10">
                         <h1 className="text-[12vw] md:text-[8vw] lg:text-[9rem] font-bold leading-[0.8] tracking-[-0.05em] mb-4 md:mb-8 lg:mb-12">
-                            Alexander<br />Aronowitz
+                            Julio<br />Herrera Velutini
                         </h1>
                         <p className="text-white/80 text-xs md:text-lg leading-[1.6] max-w-xl font-normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

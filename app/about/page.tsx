@@ -9,10 +9,10 @@ export default function About() {
                 {/* Top Header */}
                 <nav className="flex justify-between items-center mb-4 md:mb-10 pr-6 md:pr-12 lg:pr-20 relative z-20">
                     <Link href="/" className="border border-white/50 rounded-full px-4 md:px-6 py-2 md:py-2.5 text-[9px] md:text-[13px] font-medium uppercase tracking-[0.15em] hover:underline transition-all underline-offset-4 bg-black/20 backdrop-blur-sm shrink-0">
-                        Creative Presentation
+                        J H V
                     </Link>
-                    <Link href="#" className="bg-white text-black border border-white rounded-full px-5 md:px-8 py-2 md:py-2.5 text-[9px] md:text-[13px] font-semibold tracking-wider hover:bg-white/90 transition-all shrink-0">
-                        reallygreatsite.com
+                    <Link href="https://www.jherreravelutini.com/" className="bg-white text-black border border-white rounded-full px-5 md:px-8 py-2 md:py-2.5 text-[9px] md:text-[13px] font-semibold tracking-wider hover:bg-white/90 transition-all shrink-0">
+                        www.jherreravelutini.com
                     </Link>
                 </nav>
 
@@ -48,7 +48,7 @@ export default function About() {
                 {/* Bottom Navigation Row */}
                 <footer className="flex justify-between items-center mt-auto pt-4 md:pt-6 pr-6 md:pr-12 lg:pr-20 relative z-20">
                     <Link href="#" className="border border-white/50 rounded-full px-5 md:px-8 py-2 md:py-3 text-[9px] md:text-[13px] font-medium tracking-widest uppercase hover:underline transition-all underline-offset-4 bg-black/20 backdrop-blur-sm">
-                        Alexander Aronowitz
+                        Julio Herrera Velutini
                     </Link>
 
                     <Link href="/" className="flex items-center group cursor-pointer">

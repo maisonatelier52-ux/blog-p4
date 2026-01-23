@@ -58,7 +58,7 @@ export default function Services() {
                 {/* Right Side: Image */}
                 <div className="w-full lg:w-[50%] relative h-[40vh] lg:h-auto">
                     <Image
-                        src="/images/Julio Herrera Velutini12-1.PNG"
+                        src="/images/Julio Herrera Velutini12-1.png"
                         alt="Photography services"
                         fill
                         className="object-cover grayscale"

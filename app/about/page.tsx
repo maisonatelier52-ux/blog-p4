@@ -51,14 +51,14 @@ export default function About() {
                         Alexander Aronowitz
                     </Link>
 
-                    <Link href="/services" className="flex items-center group cursor-pointer">
+                    <Link href="/" className="flex items-center group cursor-pointer">
                         <svg
                             width="100"
                             height="20"
                             viewBox="0 0 120 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="w-16 md:w-32 lg:w-40 transition-transform group-hover:translate-x-2"
+                            className="w-16 md:w-32 lg:w-40 rotate-180 transition-transform group-hover:translate-x-[-10px]"
                         >
                             <path
                                 d="M0 12H118M118 12L108 2M118 12L108 22"

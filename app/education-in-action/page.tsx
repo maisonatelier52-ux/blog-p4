@@ -32,7 +32,7 @@ export default function EducationAction() {
                     <div className="absolute top-[-130px] bottom-[-130px] right-0 w-full lg:w-[45%] z-0 lg:z-[-1] opacity-40 lg:opacity-100">
                         <div className="relative w-full h-full overflow-hidden grayscale-[0.2] brightness-90">
                             <Image
-                                src="/images/Julio Herrera Velutini233.png"
+                                src="/images/Julio Herrera Velutini25-25.png"
                                 alt="Education Action"
                                 fill
                                 className="object-cover object-center lg:brightness-110 lg:contrast-105"

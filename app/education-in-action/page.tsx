@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function About() {
+export default function EducationAction() {
     return (
         <div className="h-[100dvh] bg-black text-white flex flex-col font-sans selection:bg-white selection:text-black overflow-hidden relative">
             <div className="flex-grow flex flex-col py-6 md:py-10 lg:py-12 pl-6 md:pl-12 lg:pl-20 z-10">
@@ -17,24 +17,23 @@ export default function About() {
                 <main className="flex-grow flex flex-col lg:flex-row items-center justify-between gap-6 md:gap-8 py-2 md:py-4 relative">
                     <div className="w-full lg:w-3/5 flex flex-col justify-center z-10">
                         <h1 className="text-[7vw] md:text-[5vw] lg:text-[5rem] font-bold leading-[1.1] tracking-[-0.03em] mb-4 md:mb-8 lg:mb-10 uppercase">
-                            A Heritage of <br />Learning and <br />Big Dreams
+                            Education in <br />Action: From <br />Exchange Floors <br />to Global Banks
                         </h1>
                         <p className="text-white/80 text-xs md:text-lg leading-[1.6] max-w-xl font-normal">
-                            Being part of a culture that colossally valued knowledge, leadership, and
-                            responsibility, Julio Martin Herrera Velutini never once undervalued the importance of
-                            education. Born into the patrician Herrera Velutini family – one of history&#39;s most
-                            immortal business dynasties with roots tracing back to Europe and Venezuela,
-                            Julio’s upbringing was moulded by stories of innovation, entrepreneurship, and
-                            global impact. His education was never about just degrees and certificates; instead,
-                            it was about carrying forward a legacy of financial leadership and civic contribution.
+                            His graduation wasn’t the end of his career. He had to put his education into work.
+                            His professional journey began on the Caracas Stock Exchange at Multinvest Casa
+                            de Bolsa in the early 1990s. This real-world exposure to trading, markets, and
+                            investment banking handed him an opportunity to put his classroom knowledge to
+                            practice which helped him develop his instincts and business sense early on in his
+                            career.
                         </p>
                     </div>
 
                     <div className="absolute top-[-130px] bottom-[-130px] right-0 w-full lg:w-[45%] z-0 lg:z-[-1] opacity-40 lg:opacity-100">
                         <div className="relative w-full h-full overflow-hidden grayscale-[0.2] brightness-90">
                             <Image
-                                src="/images/Julio Herrera Velutini23-3.png"
-                                alt="Heritage of Learning"
+                                src="/images/Julio Herrera Velutini233.png"
+                                alt="Education Action"
                                 fill
                                 className="object-cover object-center lg:brightness-110 lg:contrast-105"
                                 priority
@@ -49,12 +48,12 @@ export default function About() {
                     </Link>
 
                     <div className="flex items-center gap-8">
-                        <Link href="/" className="flex items-center group cursor-pointer rotate-180">
+                        <Link href="/cross-cultural" className="flex items-center group cursor-pointer rotate-180">
                             <svg width="60" height="20" viewBox="0 0 120 24" fill="none" className="transition-transform group-hover:translate-x-2">
                                 <path d="M0 12H118M118 12L108 2M118 12L108 22" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                             </svg>
                         </Link>
-                        <Link href="/academic-foundations" className="flex items-center group cursor-pointer">
+                        <Link href="/lifelong-learning" className="flex items-center group cursor-pointer">
                             <svg width="100" height="20" viewBox="0 0 120 24" fill="none" className="w-16 md:w-32 lg:w-40 transition-transform group-hover:translate-x-2">
                                 <path d="M0 12H118M118 12L108 2M118 12L108 22" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
                             </svg>
@@ -65,5 +64,3 @@ export default function About() {
         </div>
     );
 }
-
-

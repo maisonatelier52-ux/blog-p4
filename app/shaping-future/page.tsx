@@ -35,7 +35,7 @@ export default function ShapingFuture() {
                                 src="/images/Julio Herrera Velutini12.png"
                                 alt="Shaping His Future"
                                 fill
-                                className="object-cover object-center lg:brightness-110 lg:contrast-105"
+                                className="object-cover grayscale-[0.8] brightness-90 object-center lg:brightness-110 lg:contrast-105"
                                 priority
                             />
                         </div>

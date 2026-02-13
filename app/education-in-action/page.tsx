@@ -35,7 +35,7 @@ export default function EducationAction() {
                                 src="/images/Julio Herrera Velutini25-25.png"
                                 alt="Education Action"
                                 fill
-                                className="object-cover object-center lg:brightness-110 lg:contrast-105"
+                                className="object-cover grayscale-[0.2] brightness-90 object-center lg:brightness-110 lg:contrast-105"
                                 priority
                             />
                         </div>

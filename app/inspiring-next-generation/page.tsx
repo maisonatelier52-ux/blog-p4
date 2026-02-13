@@ -33,7 +33,7 @@ export default function InspiringNextGeneration() {
                                 src="/images/Julio Herrera Velutini12-1.png"
                                 alt="Inspiring Next Generation"
                                 fill
-                                className="object-cover object-center lg:brightness-110 lg:contrast-105"
+                                className="object-cover grayscale-[0.8] brightness-90 object-center lg:brightness-110 lg:contrast-105"
                                 priority
                             />
                         </div>
